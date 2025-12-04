@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Futuristic grid for navbar */
+.cyber-grid {
+  position: relative;
+  overflow: hidden;
+}
+
+.cyber-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 255, 150, 0.05) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0, 255, 150, 0.05) 1px,
+      transparent 1px
+    );
+  background-size: 32px 32px;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* smooth neon pulse */
+.cyber-grid::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top right,
+    rgba(0, 255, 150, 0.12),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+:root {
+  --mint-200: #b4ffe6;
+}
+
+.text-mint-200 {
+  color: var(--mint-200);
+}
+
+
+.cyber-grid {
+  background-image: linear-gradient(
+      rgba(0, 255, 165, 0.06) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(0, 255, 165, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+@keyframes glowFloat {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 6s infinite;
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.22; }
+}
