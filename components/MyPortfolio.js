@@ -82,6 +82,7 @@ export default function MyPortfolio() {
       category: "AI Intelligence Robot",
       title: "AI Trading Intelligence Robot High Frequency",
       link: "https://github.com/Mdbaizidtanvir/Automated-Trading-bot-high-frequency",
+      video:"https://res.cloudinary.com/dzvkdsogk/video/upload/v1765040392/Trading-bot_lljhce.mp4",
       description:
         "Advanced AI trading robot analyzing market trends, detecting patterns, and executing high-precision trades using real-time data, MT5 integration, and AI models.",
       tech: ["Python", "MT5", "Vector Embeddings", "Ollama Model Training"],
