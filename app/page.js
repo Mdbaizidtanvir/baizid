@@ -16,7 +16,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="px-6 md:px-14">
+      <main className="px-2 md:px-14">
         <Banner />
         <MyServices />
         <MySkills />
