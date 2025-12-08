@@ -8,7 +8,7 @@ export default function MyExperience() {
       id="experience"
       className="
         relative w-full py-20 mt-20 
-        bg-gradient-to-b from-black via-[#0f0f0f] to-black
+      
       "
     >
       {/* Soft grid background */}
