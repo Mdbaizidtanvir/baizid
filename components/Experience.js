@@ -159,10 +159,10 @@ export default function MyExperience() {
             "
           ></div>
 
-          <div className="flex items-center gap-4 mb-4">
+          <div className="flex items-center gap-2 md:gap-4 mb-4">
             <div
               className="
-                w-12 h-12 rounded-full bg-green-300/20 
+               w-14 md:w-12 h-12 rounded-full bg-green-300/20 
                 border border-green-300/40 
                 flex items-center justify-center
                 shadow-[0_0_20px_rgba(0,255,160,0.25)]
