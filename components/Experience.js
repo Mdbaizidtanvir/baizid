@@ -45,7 +45,7 @@ export default function MyExperience() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
           className="
-            group p-8 md:p-10 rounded-2xl 
+            group px-2 py-2 md:p-10 rounded-2xl 
             bg-black/30 backdrop-blur-xl
             border border-white/10
             shadow-[0_0_35px_rgba(0,255,160,0.12)]
@@ -142,7 +142,7 @@ export default function MyExperience() {
           transition={{ duration: 0.9, ease: "easeOut" }}
           viewport={{ once: true }}
           className="
-            group p-8 md:p-10 rounded-2xl 
+            group px-2 py-2 md:p-10 rounded-2xl 
             bg-black/30 backdrop-blur-xl
             border border-white/10
             shadow-[0_0_35px_rgba(0,255,160,0.12)]
