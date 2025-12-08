@@ -144,7 +144,7 @@ export default function MyPortfolio() {
     <section
       id="portfolio"
       ref={ref}
-      className="relative w-full py-20 bg-gradient-to-b from-black via-[#0f0f0f] to-black"
+      className="relative w-full py-20 "
     >
       {/* Soft grid background */}
       <div className="absolute inset-0 opacity-[0.05]  bg-cover"></div>
