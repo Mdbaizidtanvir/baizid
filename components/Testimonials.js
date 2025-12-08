@@ -37,7 +37,7 @@ export default function MyTestimonials() {
   ];
 
   return (
-    <section className="w-full py-20 bg-gradient-to-b from-black via-[#0f0f0f] to-black rounded-xl relative">
+    <section className="w-full py-20  rounded-xl relative">
       {/* Section Header */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
