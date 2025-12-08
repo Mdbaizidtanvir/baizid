@@ -24,7 +24,7 @@ export default function MyContact() {
   };
 
   return (
-    <section id="contact" className="w-full py-20 bg-gradient-to-b from-black via-[#0f0f0f] to-black rounded-xl relative">
+    <section id="contact" className="w-full py-20  rounded-xl relative">
       <div className="w-[90%] md:w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
         {/* LEFT SIDE */}
