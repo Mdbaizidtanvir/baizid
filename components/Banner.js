@@ -11,7 +11,7 @@ export default function Banner() {
     <section
       id="home"
       className="
-        relative w-full px-6 md:px-16 pt-32 md:pb-20 
+        relative w-full px-2 md:px-16 pt-32 md:pb-20 
         overflow-hidden md:h-screen
         flex items-center
       "
