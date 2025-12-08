@@ -43,7 +43,7 @@ export default function MyServices() {
   return (
     <section
       id="services"
-      className="relative w-full py-20 bg-gradient-to-b from-[#0a0a0a] via-[#111111] to-[#0a0a0a]"
+      className="relative w-full py-20 "
     >
       {/* Grid background */}
       <div className="absolute inset-0 opacity-[0.05]  bg-cover"></div>
