@@ -20,8 +20,7 @@ export default function Banner() {
       <div
         className="
           absolute inset-0 
-          bg-[radial-gradient(circle_at_top_left,rgba(0,255,180,0.18),transparent_70%)]
-          blur-2xl
+         
         "
       />
 
