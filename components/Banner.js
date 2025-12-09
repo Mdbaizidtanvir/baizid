@@ -38,8 +38,8 @@ export default function Banner() {
             transition={{ duration: 0.6 }}
             className="text-3xl lg:mt-[70px] md:mt-10 md:text-5xl font-black text-white leading-tight"
           >
-Web Automation
-  <span className="block text-green-400">& AI Developer</span>
+Web Automation &
+  <span className="block text-green-400"> AI Developer</span>
           </motion.h1>
 
           <p className="text-gray-300 mt-5 text-[16px] leading-relaxed">
