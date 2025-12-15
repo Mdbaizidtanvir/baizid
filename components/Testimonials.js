@@ -27,7 +27,7 @@ export default function MyTestimonials() {
   {
     id: 2,
     image: "/client3.jpg",
-    name: "Yannickborer",
+    name: "Peeyush Shukla",
     role: "Chief Information Officer (heitman)",
     text:
       "Working with Baizid was a game changer. He delivered production-ready systems with clean architecture, strong API integrations, and seamless UI/UX. His ability to work independently and solve complex problems made our launch incredibly smooth.",
