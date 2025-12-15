@@ -44,6 +44,9 @@ export default function MySkills() {
     { name: "JWT / Validation / Rate Limiting", img: Jtw },
     { name: "Trading Bot", img: Trading },
     { name: "Selenium Automation", img: '/skils/Selenium.png' },
+    { name: "Beautifulsoup Scraping", img: '/skils/soup.png' },
+  
+
 
   ];
 
