@@ -43,6 +43,8 @@ export default function MySkills() {
     { name: "Security Best Practices", img: Security },
     { name: "JWT / Validation / Rate Limiting", img: Jtw },
     { name: "Trading Bot", img: Trading },
+    { name: "Web Automation/Scraping", img: './skils/Selenium.png' },
+
   ];
 
   const ref = useRef(null);
