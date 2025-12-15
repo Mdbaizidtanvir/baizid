@@ -178,7 +178,7 @@ export default function MyExperience() {
                 Full Stack Web AI Integration Specialist
               </h2>
               <p className="text-white/60 text-sm">
-                ditstek.com • Remote — USA,California • 2023 — 2024
+                clickysoft.com • Remote — USA • 2023 — 2024
               </p>
             </div>
 
