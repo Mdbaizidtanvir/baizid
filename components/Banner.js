@@ -108,12 +108,16 @@ Web Automation &
               width={300}
               height={300}
               alt="md baizid tanvir"
-              className="
-                rounded-full border border-green-300/40
-                shadow-[0_0_35px_rgba(0,255,100,0.3)]
-                md:mt-8
-              "
-              loading="eager"
+               className="
+    w-[220px] h-[220px]
+    md:w-[300px] md:h-[300px]
+    object-contain md:object-cover
+    rounded-full border border-green-300/40
+    shadow-[0_0_35px_rgba(0,255,100,0.3)]
+    md:mt-8
+  "
+  loading="eager"
+
             />
           </motion.div>
         </motion.div>
