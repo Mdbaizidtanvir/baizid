@@ -45,7 +45,9 @@ export default function MySkills() {
     { name: "Trading Bot", img: Trading },
     { name: "Selenium Automation", img: '/skils/Selenium.png' },
     { name: "Beautifulsoup Scraping", img: '/skils/soup.png' },
-  
+    { name: "Playwright automation", img: '/skils/playwright.svg' },
+
+
 
 
   ];
